@@ -14,6 +14,8 @@
 		15E600942964562300FBC401 /* PdfReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E600932964562300FBC401 /* PdfReaderTests.swift */; };
 		15E6009E2964562300FBC401 /* PdfReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E6009D2964562300FBC401 /* PdfReaderUITests.swift */; };
 		15E600A02964562300FBC401 /* PdfReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E6009F2964562300FBC401 /* PdfReaderUITestsLaunchTests.swift */; };
+		15E600AF2964599200FBC401 /* SwiftPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E600AE2964599200FBC401 /* SwiftPDFView.swift */; };
+		15E600B129645BC900FBC401 /* sample_pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 15E600B029645BC900FBC401 /* sample_pdf.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		15E600992964562300FBC401 /* PdfReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PdfReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E6009D2964562300FBC401 /* PdfReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfReaderUITests.swift; sourceTree = "<group>"; };
 		15E6009F2964562300FBC401 /* PdfReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15E600AE2964599200FBC401 /* SwiftPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPDFView.swift; sourceTree = "<group>"; };
+		15E600B029645BC900FBC401 /* sample_pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample_pdf.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		15E600812964562200FBC401 /* PdfReader */ = {
 			isa = PBXGroup;
 			children = (
+				15E600AE2964599200FBC401 /* SwiftPDFView.swift */,
 				15E600822964562200FBC401 /* PdfReaderApp.swift */,
 				15E600842964562200FBC401 /* ContentView.swift */,
+				15E600B029645BC900FBC401 /* sample_pdf.pdf */,
 				15E600862964562300FBC401 /* Assets.xcassets */,
 				15E600882964562300FBC401 /* Preview Content */,
 			);
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E600B129645BC900FBC401 /* sample_pdf.pdf in Resources */,
 				15E6008A2964562300FBC401 /* Preview Assets.xcassets in Resources */,
 				15E600872964562300FBC401 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E600AF2964599200FBC401 /* SwiftPDFView.swift in Sources */,
 				15E600852964562200FBC401 /* ContentView.swift in Sources */,
 				15E600832964562200FBC401 /* PdfReaderApp.swift in Sources */,
 			);

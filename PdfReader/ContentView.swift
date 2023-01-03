@@ -6,16 +6,11 @@
 //
 
 import SwiftUI
+import PDFKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        SwiftPDFView(url: Bundle.main.url(forResource: "sample_pdf", withExtension: "pdf")!)
     }
 }
 
